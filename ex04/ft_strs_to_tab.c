@@ -6,10 +6,11 @@
 /*   By: stesfai <stesfai@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 13:10:04 by stesfai           #+#    #+#             */
-/*   Updated: 2023/08/02 14:36:26 by stesfai          ###   ########.fr       */
+/*   Updated: 2023/08/02 14:38:33 by stesfai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
 #include "ft_stock_str.h"
 #include <stdlib.h> //Required for free() &malloc()
 
@@ -38,11 +39,12 @@ struct	s_stock_str	*ft_strs_to_tab(int ac, char **av)
 	}
 	return (s);
 }
-
-/*Used for debugging*/
+/*
+/*Used for debugging
 #include <stdio.h>
 
 int	main(int ac, char **av)
 {
 	ft_strs_to_tab(ac, av);
 }
+*/

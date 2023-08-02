@@ -6,10 +6,9 @@
 /*   By: stesfai <stesfai@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 14:06:34 by stesfai           #+#    #+#             */
-/*   Updated: 2023/08/02 14:32:57 by stesfai          ###   ########.fr       */
+/*   Updated: 2023/08/02 14:39:11 by stesfai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #ifndef FT_STOCK_STR_H
 # define FT_STOCK_STR_H
