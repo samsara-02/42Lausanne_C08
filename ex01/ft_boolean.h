@@ -6,7 +6,7 @@
 /*   By: stesfai <stesfai@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 16:42:47 by stesfai           #+#    #+#             */
-/*   Updated: 2023/08/02 00:30:54 by stesfai          ###   ########.fr       */
+/*   Updated: 2023/08/02 13:04:39 by stesfai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,18 +32,14 @@ Syntax suggested by hmorand
 #ifndef FT_BOOLEAN_H
 # define FT_BOOLEAN_H
 # include <unistd.h>
-# include <stdbool.h>
-# define TRUE
-# define FALSE
-# define EVEN_MSG
-# define ODD_MSG
-# define SUCCESS
+# define EVEN_MSG "I have an even number of arguments.\n"
+# define ODD_MSG "I have an odd number of arguments.\n"
+# define SUCCESS 0
+# define TRUE	1
+# define FALSE	0
 
-typedef bool	t_bool;
-# define EVEN_MSG "I have an even number of arguments.\n";
-# define ODD_MSG "I have an odd number of arguments.\n";
-# define SUCCESS 0;
-# define TRUE	1;
-# define FALSE	0;
+typedef int	t_bool;
+
+# define EVEN(nbr) ((nbr) % 2 == 0)
 
 #endif
